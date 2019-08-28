@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #87A0B2;
+    font-family: 'roboto', sans-serif;
+}
+.title-heading {
+    text-align: center;
+    padding: 1.6rem;
+}
+form {
+    background: #eee;
+    padding: 2rem;
+    width: 50%;
+    min-width: 200px;
+    margin: auto;
+    border-radius: 6px;
+}
+.row {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+.selectbox {
+    margin: 1.2rem 0;
+}
+
+.fieldset {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type='text'] {
+    width: 32%;
+    height: 36px;
+    font-size: 1rem;
+    margin: 0.5em 0 0;
+    border: none;
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+    padding: 0 0.5em;
+}
+
+input[type='email'] {
+    width: 50%;
+    height: 36px;
+    font-size: 1rem;
+    margin: 0.5em 0 0;
+    border: none;
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+    padding: 0 0.5em;
+}
+
+input[type='radio'], input[type='checkbox'] {
+    margin: 0.5em 0 0;
+}
+
+.submit-button {
+    text-align: center;
+    margin: 2em 0 0;
+}
+.submit-btn {
+    width: 90px;
+    height: 35px;
+    border: none;
+    background: #007bff;
+    border-radius: 4px;
+    color: #eee;
+    font-weight: 600;
+}
