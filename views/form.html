@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title-heading">
+        <h1>Survey Form</h1>
+      </div>
+      <form
+        method="POST"
+        action="/"
+        onsubmit="submit()"
+        id="survey-form"
+        class="survey-form"
+      >
+        <div class="row">
+          <label for="name" id="name-label">Name </label>
+          <div class="fieldset">
+            <input
+              type="text"
+              id="f-name"
+              class="name"
+              name="firstname"
+              placeholder="First Name"
+            />
+            <input
+              type="text"
+              id="m-name"
+              class="name"
+              name="middlename"
+              placeholder="Middle Name"
+            />
+            <input
+              type="text"
+              id="l-name"
+              class="name"
+              name="lastname"
+              placeholder="Last Name"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <label for="email" id="email-label">Email </label>
+          <div class="fieldset">
+            <input
+              type="email"
+              id="emailId"
+              class="email"
+              name="email"
+              placeholder="Enter your email.."
+            />
+          </div>
+        </div>
+        <div class="selectbox selectbox-1">
+          <label for="">Which sports you like the most?</label>
+          <div class="radio-btn">
+            <div>
+              <label for="basketball">
+                <input
+                  type="radio"
+                  name="sports"
+                  id="basketball"
+                  value="basketball"
+                />
+                Basketball</label
+              >
+            </div>
+            <div>
+              <label for="football">
+                <input
+                  type="radio"
+                  name="sports"
+                  id="football"
+                  value="football"
+                />
+                Football</label
+              >
+            </div>
+            <div>
+              <label for="baseball">
+                <input
+                  type="radio"
+                  name="sports"
+                  id="baseball"
+                  value="baseball"
+                />
+                Baseball</label
+              >
+            </div>
+            <div>
+              <label for="volleyball">
+                <input
+                  type="radio"
+                  name="sports"
+                  id="volleyball"
+                  value="volleyball"
+                />
+                Volleyball</label
+              >
+            </div>
+            <div>
+              <label for="badminton">
+                <input
+                  type="radio"
+                  name="sports"
+                  id="badminton"
+                  value="badminton"
+                />
+                Badminton</label
+              >
+            </div>
+          </div>
+        </div>
+        <div class="selectbox selectbox-2">
+          <label for="">What you like to drink?</label>
+          <div class="checkbox-btn">
+            <div>
+              <label for="tea">
+                <input type="checkbox" name="drinks" id="tea" value="tea" />
+                Tea</label
+              >
+            </div>
+            <div>
+              <label for="coffee">
+                <input
+                  type="checkbox"
+                  name="drinks"
+                  id="coffee"
+                  value="coffee"
+                />
+                Coffee</label
+              >
+            </div>
+            <div>
+              <label for="cold_drink">
+                <input
+                  type="checkbox"
+                  name="drinks"
+                  id="cold_drink"
+                  value="cold drink"
+                />
+                Cold drink</label
+              >
+            </div>
+          </div>
+        </div>
+        <div class="submit-button">
+          <input type="submit" value="Submit" class="submit-btn" />
+        </div>
+      </form>
+    </div>
+    <!-- <script src="../form.js"></script> -->
+  </body>
+</html>
